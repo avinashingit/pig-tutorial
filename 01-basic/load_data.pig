@@ -1,6 +1,6 @@
 -- The following command is used to load the data
 
-data = LOAD 'file.txt' USING PigStorage() AS (id:int, name:chararray, gender:boolean);
+data = LOAD 'data/students.txt' USING PigStorage() AS (id:int, name:chararray, gender:boolean);
 
 /*
 
